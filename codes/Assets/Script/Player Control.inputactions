@@ -1,0 +1,33 @@
+{
+    "name": "Player Control",
+    "maps": [
+        {
+            "name": "gameplay",
+            "id": "d2e85eeb-9c74-4c2a-ad6a-72a9489ca68e",
+            "actions": [
+                {
+                    "name": "jump",
+                    "type": "Button",
+                    "id": "77840c41-a4e5-4399-b793-faddf632700f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a153e7a2-bdd0-49a9-ac59-0dd76f7bd60f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
